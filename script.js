@@ -51,3 +51,6 @@ dots.forEach((dot, index) => {
 });
 
 autoSlide();
+
+
+
