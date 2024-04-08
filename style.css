@@ -310,7 +310,7 @@ margin-top: 100px;
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index: 100;
+    z-index: 8;
 }
 
 .prev {
@@ -948,7 +948,7 @@ margin-top: 100px;
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index: 100;
+    z-index: 7;
     width: 30px;
     
   }
