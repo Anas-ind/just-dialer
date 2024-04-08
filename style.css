@@ -421,7 +421,7 @@ margin-top: 100px;
 }
 
 .feature-container-box {
-    width: 100%;
+    width: 95%;
     height: 450px;
     display: flex;
     gap: 1.2rem;
