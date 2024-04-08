@@ -57,6 +57,26 @@ prevButton.addEventListener('click', prevSlide1);
 nextButton.addEventListener('click', nextSlide1);
 
 
+var placeholders = ['Search for Restaurants',
+                    'Search for Spa and Salons',
+                    'Search for Packers and Movers',
+                    'Search in Delhi',
+                    'Search for Real Estate Agents',
+                    'Search for Pest Control Services',
+                    'Search in my area'
+                  ]; // Array of placeholder options
+var currentIndex1 = 0;
+
+function changePlaceholder() {
+  var inputElement = document.getElementById('myInput');
+  inputElement.placeholder = placeholders[currentIndex1]; // Set the placeholder text to the current option
+  currentIndex1 = (currentIndex1 + 1) % placeholders.length; // Increment index and loop back to the beginning if necessary
+}
+
+// Call the changePlaceholder() function every 3 seconds (3000 milliseconds)
+setInterval(changePlaceholder, 2000);
+
+
 
 // let currentIndex = 0;
 // const slider = document.querySelector('.slidero1');
