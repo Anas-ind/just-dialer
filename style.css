@@ -6,6 +6,9 @@
 html{
     scroll-behavior: smooth;
 }
+.nav-logo h1 a{
+    text-decoration: none;
+}
 .upar{
     height: 30px;
     width: 30px;
