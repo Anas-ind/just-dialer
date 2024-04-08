@@ -28,13 +28,10 @@ html{
     transform: translateY(-15px);
     opacity: 0.5;
     transition: all 800ms linear;
-
-
 }
 
 body {
     background-color: #e8e8e8;
-    
 }
 
 nav {
@@ -69,6 +66,13 @@ nav {
     font-weight: 700;
     font-style: normal;
 
+}
+.nav-iteams .items:hover{
+    color: #0076D7;
+}
+.nav-iteams .items:hover a h3{
+    text-decoration: underline;
+    color: #0076D7;
 }
 
 .search-1 {
