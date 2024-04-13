@@ -33,9 +33,10 @@ html{
 
 body {
     background-color: #e8e8e8;
+    width: 100;
 }
 
-nav {
+nav , #idhar{
     background-color: white;
     width: 100%;
     height: 100px;
@@ -155,6 +156,7 @@ nav {
 }
 .wrapper{
     position: relative;
+    height: auto;
 }
 .scrool-bars{
     
@@ -304,6 +306,9 @@ margin-top: 100px;
 
 
 }
+.main-conatiner .left-part{
+    position: relative;
+}
 
 
 .prev,
@@ -325,7 +330,7 @@ margin-top: 100px;
 }
 
 .next {
-    right: 50%;
+    right: 0;
 }
 
 .dots-container {
@@ -351,11 +356,11 @@ margin-top: 100px;
 }
 
 /* CARDS  */
-.right-part {
+/* .right-part {
     width: 50%;
 
 
-}
+} */
 
 .card-container {
     /* border: 1px solid black; */
@@ -432,19 +437,18 @@ margin-top: 100px;
 }
 
 .feature-container-box {
-    width: 95%;
-    height: 450px;
+   
+    height: auto;
     display: flex;
     gap: 1.2rem;
     margin: 60px 50px;
     flex-wrap: wrap;
     margin-top: -10px;
-    
-   
+  
 }
 
 .feature-section-two {
-    width: 100%;
+    width: auto;
     margin: 20px 50px;
     display: flex;
     flex-wrap: wrap;
@@ -453,7 +457,7 @@ margin-top: 100px;
 }
 
 .feature-section-three {
-    width: 100%;
+    width: auto;
     margin: 20px auto;
 
 }
@@ -465,8 +469,8 @@ margin-top: 100px;
     color: blue;
 }
 .box1 {
-    height: 150px;
-    width: 150px;
+    height: 9.3rem;
+    width: 9.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -585,8 +589,8 @@ margin-top: 100px;
 
 .upper-box {
     border: 1px solid #cccccc;
-    width: 91.5%;
-    /* max-width: 90%; */
+    width: auto;
+   
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -603,8 +607,9 @@ margin-top: 100px;
 }
 
 .upper-box .left-part {
+    /* border: 2px solid red; */
     margin-left: 25px;
-    width: 30%;
+    width: 20rem;
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 20px;
@@ -613,8 +618,18 @@ margin-top: 100px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
+.bx1{
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid cyan; */
+    
+}
+.upper-box{
+    /* border: 1px solid magenta; */
+}
 .upper-box .left-part a {
     text-decoration: none;
 }
@@ -622,12 +637,17 @@ margin-top: 100px;
 .upper-box .left-part p {
     color: #333333;
 }
+#box3pe{
+    transform: translateY(-28px);
+}
+.bx2pe{
+    transform: translateY(10px);
+}
 
 .upper-box .right-part {
-
-    width: 800px;
+    
+    gap: 5px;
     height: 100%;
-    /* max-width: 70%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -635,17 +655,29 @@ margin-top: 100px;
 
 #lbl {
     color: #317f56;
-
-
+}
+.rt{
+    gap: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .lower-box .right-part .box1 {
     display: flex;
     text-align: center;
+    
 
 
 }
-
+.lower-box .right-part{
+    justify-content: center;
+    align-items: center;
+   
+    height: 100%;
+    gap: 20px;
+}
 /***************************Popular Section *****************************/
 
 .popular-section,
@@ -659,7 +691,7 @@ margin-top: 100px;
 
 
 .recent-activity {
-    height: 800px;
+    height: auto;
 }
 
 .popular-container h1 {
@@ -1098,6 +1130,9 @@ margin-top: 100px;
     margin: 10px 50px;
     width: 92%;
   }
+  .one-stop-business{
+    height: auto;
+  }
   .quick-links{
     border: 1px solid #cccccc;
     border-left: none;
@@ -1106,7 +1141,7 @@ margin-top: 100px;
   }
   .content-boox{
     width: 100%;
-    height: 320px;
+   
    
     display: flex;
     flex-direction: column;
@@ -1127,7 +1162,7 @@ margin-top: 100px;
   
  .our-services-box{
     width: 100%;
-    height: 600px;
+   
  }
  .ourservicehead{
     font-family: "Poppins", sans-serif;

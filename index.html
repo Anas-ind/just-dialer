@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <a href="#idhar" class="upar">
+    <a href="#" class="upar">
         <img class="upar" src="/assests/up-arrow.png" alt="">
     
     </a>   
-    <div class="wrapper" id="idhar">
+    <div class="wrapper" id="nav">
         
  
         <!-- NAVBAR -->     
-        <nav id="idhar">
+        <div id="idhar">
             <div class="nav-container" >
 
                 <div class="nav-logo">
@@ -80,23 +80,24 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
         <!-- Main content  -->
         <div class="main-conatiner">
             <div class="left-part">
                 <div class="slider">
 
-                    <img src="/assests/banner_hotels_2024.webp" alt="Image 1">
-                    <img src="/assests/banner_interiordesigners_2024.webp" alt="Image 2">
-                    <img src="/assests/banner_packersmovers_2024.webp" alt="Image 3">
-                    <img src="/assests/ipl-entry-point-banner-web-27march.avif" alt="Image 4">
-                    <img src="/assests/ramadan-entry-point-banner-web-27march.avif" alt="Image 4">
+                    <img src="/assests/banner_hotels_2024.webp" alt="Image 1" loading="lazy">
+                    <img src="/assests/banner_interiordesigners_2024.webp" alt="Image 2" loading="lazy">
+                    <img src="/assests/banner_packersmovers_2024.webp" alt="Image 3" loading="lazy">
+                    <img src="/assests/ipl-entry-point-banner-web-27march.avif" alt="Image 4" loading="lazy">
+                    <img src="/assests/ramadan-entry-point-banner-web-27march.avif" alt="Image 4" loading="lazy">
                     <!-- Add more images as needed -->
                 </div>
                 <div class="dots-container"></div>
+
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
             </div>
-            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-            <button class="next" onclick="changeSlide(1)">&#10095;</button>
             <div class="right-part">
                 <div class="card-container">
                     <div class="card1">
@@ -104,7 +105,7 @@
                         <div class="txt">
                             <span>Quick <br> <span>Quotes</span></span>
                         </div>
-                        <img src="/assests/b2b_square_hotkey.webp" alt="">
+                        <img src="/assests/b2b_square_hotkey.webp" alt="" loading="lazy">
                     </div>
 
                     <div class="card1 card2">
@@ -112,7 +113,7 @@
                         <div class="txt">
                             <span>Get <br> </span><span>Nearest</span> <br> <span>Vendor</span>
                         </div>
-                        <img src="/assests/repair_square_hotkey.webp" alt="">
+                        <img src="/assests/repair_square_hotkey.webp" alt="" loading="lazy">
                     </div>
 
                     <div class="card1 card3">
@@ -121,7 +122,7 @@
                             <span>Finest </span><br> <span>Agents</span>
                         </div>
 
-                        <img src="/assests/realestate_square_hotkey.webp" alt="">
+                        <img src="/assests/realestate_square_hotkey.webp" alt="" loading="lazy">
                     </div>
 
                     <div class="card1 card4">
@@ -129,7 +130,7 @@
                         <div class="txt">
                             <span>Book </span><br> <span>Now</span>
                         </div>
-                        <img src="/assests/doctor_square_hotkey.webp" alt="">
+                        <img src="/assests/doctor_square_hotkey.webp" alt="" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -140,7 +141,7 @@
                 <a href="#">
                 <div class="box1">
                     <div class="logo-box">
-                        <img src="/assests/feature-section/cutlery.png" alt="">
+                        <img src="/assests/feature-section/cutlery.png" alt="" loading="lazy">
                     </div>
                         <p>Restaurants</p>
                     </div>
@@ -149,7 +150,7 @@
 
                     <div class="box1 box2">
                         <div class="logo-box">
-                            <img src="/assests/feature-section/hotel.png" alt="">
+                            <img src="/assests/feature-section/hotel.png" alt="" loading="lazy">
                         </div>
                         <p>Hotels</p>
                     </div>
@@ -399,61 +400,79 @@
                         <p>Pay your bills & recharge instanly with JustDialer</p>
                         <a href="#">Explore More</a>
                     </div>
-                    <div class="right-part">
-                        <a href="#">
+                    <div class="rt">
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/smartphone.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/smartphone.png" alt="">
+                                    </div>
+                                    <p>Mobile</p>
                                 </div>
-                                <p>Mobile</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/blub.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/blub.png" alt="">
+                                    </div>
+                                    <p>Electricity</p>
                                 </div>
-                                <p>Electricity</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/tv-box.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/tv-box.png" alt="">
+                                    </div>
+                                    <p>DTH</p>
                                 </div>
-                                <p>DTH</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/water-tap.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/water-tap.png" alt="">
+                                    </div>
+                                    <p>Water</p>
                                 </div>
-                                <p>Water</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/insurance.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/insurance.png" alt="">
+                                    </div>
+                                    <p>Insurance</p>
                                 </div>
-                                <p>Insurance</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/gas.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/gas.png" alt="">
+                                    </div>
+                                    <p>Gas</p>
                                 </div>
-                                <p>Gas</p>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
 
                     </div>
                 </div>
@@ -465,58 +484,73 @@
                         <a href="#">Explore More</a>
                     </div>
                     <div class="right-part">
-                        <a href="#">
+                        <div class="bx1">
 
-                            <div class="box1" id="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/travel.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1" id="box1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/travel.png" alt="">
+                                    </div>
+                                    <p>Flight</p>
+                                    <p id="lbl">Powered By Easemytrip.com</p>
                                 </div>
-                                <p>Flight</p>
-                                <p id="lbl">Powered By Easemytrip.com</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1">
-                                <div class="logo-box" id="box2">
-                                    <img src="/assests/feature-section/feature 3/bus-school.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1 bx2pe">
+                                    <div class="logo-box" id="box2">
+                                        <img src="/assests/feature-section/feature 3/bus-school.png" alt="">
+                                    </div>
+                                    <div id="txt">
+                                        
+                                        <p>Bus</p>
+                                        <p id="lbl">Affordable Rides</p>
+                                    </div>
                                 </div>
-                                <div id="txt">
-                                    
-                                    <p>Bus</p>
-                                    <p id="lbl">Affordable Rides</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1" id="box3">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/train.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1" id="box3pe">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/train.png" alt="">
+                                    </div>
+                                    <p>Train</p>
                                 </div>
-                                <p>Train</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1" id="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/hotel.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1" id="box1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/hotel.png" alt="">
+                                    </div>
+                                    <p>Hotel</p>
+                                    <p id="lbl">Budget-friendly Stay</p>
                                 </div>
-                                <p>Hotel</p>
-                                <p id="lbl">Budget-friendly Stay</p>
-                            </div>
-                        </a>
-                        <a href="#">
+                            </a>
+                        </div>
+                        <div class="bx1">
 
-                            <div class="box1" id="box1">
-                                <div class="logo-box">
-                                    <img src="/assests/feature-section/feature 3/car-rental.png" alt="">
+                            <a href="#">
+                                
+                                <div class="box1 bx1" id="box1">
+                                    <div class="logo-box">
+                                        <img src="/assests/feature-section/feature 3/car-rental.png" alt="">
+                                    </div>
+                                    <p>Car Rentals</p>
+                                    <p id="lbl">Drive Easy Anywhere</p>
                                 </div>
-                                <p>Car Rentals</p>
-                                <p id="lbl">Drive Easy Anywhere</p>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
 
 
                     </div>
@@ -1332,7 +1366,7 @@
                     </div>
                 </div>
             </div>
-            <footer>
+            <div class="footer">
                 <div class="fcontainer">
                     <div class="ft-first">
                         <p>Copyrights &#169; 2008-24.  All Rights Reserved.</p>
@@ -1344,7 +1378,7 @@
                         <a href="#">Infringement </a>
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
 
 
