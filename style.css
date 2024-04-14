@@ -54,19 +54,7 @@ nav,
 
 }
 
-@media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        /* Stack items vertically */
-        /* align-items: flex-start; */
-    }
 
-    /* Adjusting the styles of each section */
-
-
-    /* Other adjustments */
-
-}
 
 
 
@@ -403,7 +391,7 @@ nav,
 
 .card-container .card1 {
     height: 260px;
-    width: 150px;
+    /* width: 150px; */
     background-color: blue;
     overflow: hidden;
     object-fit: cover;
